@@ -1,0 +1,349 @@
+body{
+  background-color: #f6f2f2;
+  padding: 15px 32px;
+  display: inline-block;  
+}
+
+#circle {
+    background: #8ef362;
+    width: 800px;
+    height: 800px;
+    border-radius: 50%;
+    position: fixed;
+    top: 200px;
+    left: -100px;
+    z-index: -1;
+}
+
+#toe1 {
+  background: #8ef362;
+  width: 100px;
+  height: 150px;
+  border-radius: 50%;
+  position: fixed;
+  top: 90px;
+  left: 5px;
+  z-index: -1;
+}
+
+#toe2 {
+  background: #8ef362;
+  width: 100px;
+  height: 150px;
+  border-radius: 50%;
+  position: fixed;
+  top: 50px;
+  left: 130px;
+  z-index: -1;
+}
+
+#toe3 {
+  background: #8ef362;
+  width: 100px;
+  height: 150px;
+  border-radius: 50%;
+  position: fixed;
+  top: 30px;
+  left: 250px;
+  z-index: -1;
+}
+
+#toe4 {
+  background: #8ef362;
+  width: 100px;
+  height: 150px;
+  border-radius: 50%;
+  position: fixed;
+  top: 50px;
+  left: 400px;
+  z-index: -1;
+}
+
+#toe5 {
+  background: #8ef362;
+  width: 200px;
+  height: 250px;
+  border-radius: 50%;
+  position: fixed;
+  top: 70px;
+  left: 550px;
+  z-index: -1;
+}
+
+#button1 {
+  border: none;
+  background-color: #b7eea0;
+  color: black;
+  padding: 35px 45px;
+  width: 140px;
+  height: 90px;
+  text-align: center;
+  text-decoration: none;
+  transform: rotate(-90deg);
+  display: inline-block;
+  border-radius: 50%;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  top: 120px;
+  left: -15px;
+  position: fixed;
+}
+
+#button2 {
+  border: none;
+  background-color: #b7eea0;
+  color: black;
+  padding: 35px 45px;
+  width: 140px;
+  height: 90px;
+  text-align: center;
+  text-decoration: none;
+  transform: rotate(-90deg);
+  display: inline-block;
+  border-radius: 50%;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  top: 80px;
+  left: 110px;
+  position: fixed;
+}
+
+#button3 {
+  border: none;
+  background-color: #b7eea0;
+  color: black;
+  padding: 35px 45px;
+  width: 140px;
+  height: 90px;
+  text-align: center;
+  text-decoration: none;
+  transform: rotate(-90deg);
+  display: inline-block;
+  border-radius: 50%;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  top: 60px;
+  left: 230px;
+  position: fixed;
+}
+
+#button4 {
+  border: none;
+  background-color: #b7eea0;
+  color: black;
+  padding: 5px 45px;
+  width: 140px;
+  height: 90px;
+  text-align: top;
+  text-decoration: none;
+  transform: rotate(-90deg);
+  display: inline-block;
+  border-radius: 50%;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  top: 80px;
+  left: 380px;
+  position: fixed;
+}
+
+#button5 {
+  border: none;
+  background-color: #b7eea0;
+  color: black;
+  padding: 5px 45px;
+  width: 230px;
+  height: 180px;
+  text-align: top;
+  text-decoration: none;
+  transform: rotate(-90deg);
+  display: inline-block;
+  border-radius: 50%;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  top: 105px;
+  left: 535px;
+  position: fixed;
+}
+
+span{
+  display: inline-block;
+  transform: rotate(90deg);
+  
+}
+
+button {
+  transition-duration: 0.4s;
+}
+
+button:hover{
+  background-color: #8d8b8b;
+  color: black;
+  box-shadow: 0 0 16px 12px rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);  
+}
+
+h1 {
+  top: 250px;
+  left: 120px;
+  position: fixed;
+  color: #485144;
+}
+
+form {
+  top: 400px;
+  left: 120px;
+  position: fixed;
+}
+
+form p label {
+  color: #485144;
+  font-size: 20px;
+}
+
+form p input[type = text] {
+  font-size: 16px;
+  border: none;
+  border-bottom: 2px solid #485144;
+  background-color: #8ef362;
+  height: 25px;
+  width: 130px
+  transition: width 0.4s ease-in-out;
+}
+
+form p input[type=text]:focus {
+    border: 3px solid #555;
+    width: 100%;
+}
+
+form p input[type = number]{
+  font-size: 16px;
+  border: none;
+  border-bottom: 2px solid #485144;
+  background-color: #8ef362;
+  height: 25px;
+  width: 130px
+}
+
+form p input[type = submit]{
+  border: none;
+  background-color: #b7eea0;
+  color: black;
+  padding: 15px 45px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+}
+
+form p input[type = submit]:hover{
+  background-color: #b7eea0;
+  color: black;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);  
+}
+
+form p select {
+    font-size: 16px;
+    border: none;
+    border-bottom: 2px solid #485144;
+    background-color: #8ef362;
+    height: 25px;
+    width: 130px
+}
+
+#name {
+  top: 350px;
+  left: 120px;
+  position: fixed;
+ color: #485144;
+ font-size: 20px;
+}
+#name p {
+  top: 380px;
+  left: 120px;
+  position: fixed;
+  color: #485144;
+  font-size: 20px;
+}
+
+#address {
+  top: 410px;
+  left: 120px;
+  position: fixed;
+  color: #485144;
+  font-size: 20px;
+}
+
+#address p {
+  top: 440px;
+  left: 120px;
+  position: fixed;
+  color: #485144;
+  font-size: 20px;
+}
+
+#size {
+  top: 460px;
+  left: 120px;
+  position: fixed;
+  color: #485144;
+  font-size: 20px;
+}
+
+#size p {
+  top: 490px;
+  left: 120px;
+  position: fixed;
+  color: #485144;
+  font-size: 20px;
+}
+
+#quantity {
+  top: 510px;
+  left: 120px;
+  position: fixed;
+  color: #485144;
+  font-size: 20px;
+}
+
+#quantity p {
+  top: 540px;
+  left: 120px;
+  position: fixed;
+  color: #485144;
+  font-size: 20px;
+}
+
+#cost {
+  top: 560px;
+  left: 120px;
+  position: fixed;
+  color: #485144;
+  font-size: 20px;
+}
+
+#cost p {
+  top: 590px;
+  left: 120px;
+  position: fixed;
+  color: #485144;
+  font-size: 20px;
+}
+
+#page{
+  top: 400px;
+  left: 50px;
+  position: absolute;
+  top:30px;    
+  bottom:30px; 
+  width: 100%;
+  height: 400px;
+  overflow-y: scroll;
+} 
+
+
+#info {
+  padding-top: 350px;
+  padding-right: 100px;
+  font-size: 20px;
+  padding-left: 10px;
+}
