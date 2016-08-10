@@ -347,3 +347,10 @@ form p select {
   font-size: 20px;
   padding-left: 10px;
 }
+
+#scroll_box {
+  top: 300px;
+  position: fixed;
+  width: 50%;
+  height: 400px;
+}

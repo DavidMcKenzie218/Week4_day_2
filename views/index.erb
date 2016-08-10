@@ -1,7 +1,7 @@
 <h1>All Orders</h1>
 
 
-<div id="page"><% @shoo.each do |shoo| %>
+<div id="scroll_box"><div id="page"><% @shoo.each do |shoo| %>
 <p>Name:</p>
 <p><%= shoo.pretty_name %></p>
 <p>Adress</p>
@@ -9,4 +9,4 @@
 <p>Order:</p>
 <p><%= shoo.quantity %> x size <%= shoo.size %></p>
 <hr>
-<% end %></div>
+<% end %></div></div>
